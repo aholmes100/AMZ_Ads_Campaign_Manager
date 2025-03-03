@@ -1,15 +1,10 @@
 import requests
 import json
 
-CLIENT_ID = 'amzn1.application-oa2-client.43d152bd411b4a1fba916f51cd05d1ba'
-PROFILE_ID = '2732942137323355'
-CLIENT_SECRET = 'amzn1.oa2-cs.v1.989d42c9d3eb7d1de083e3fc8aec2e1a372bd9626fffac1eb669690560ad796f'
-REFRESH_TOKEN = ('Atzr|IwEBIBkdBAafdoPykdM2_Y8y1mXyt8ldrMxrbDEYJRtjHci2KVZq3gMBVL12rjRkSv6CADpz2Zk'
-                 'OGaGyR61Zr5_t_V0-4_Xq4nnjeLvq9y66qGz5Osj2E3evzrq2igmK6R8DKAjxtI4QDl44qOsPcBLXXK7-'
-                 'FS0jBfNzG8ir7ahfp8-rQY7SIse0rPxZAOX6sbDBpNI3t2H6WHMvThWRLsPb6akCE9a1Qe8DxSg38BqBA_'
-                 '1sjXcq6tMPEJpjh3bsPE0xcSauumpGrNfL9WTXrSmvkSstS7hbUMU0HSP_J28tUbNR4lfHk_jo8pzUXG12'
-                 '5A1ULjGmJ_1J4Kirw35l8eyqpkPTZA01ayOQyNaFGlGgN2ji3DDYK3HtwXKuOq9BAaprlmFNGGl8VOSfkwM'
-                 'jIelJftQW7KOQcvRQmZMqt2QW5JWmB3Q0ygQaFM6nPhZaYM6jl1q6MkG6MOKVcZ276QE8natf')
+CLIENT_ID = ''
+PROFILE_ID = ''
+CLIENT_SECRET = ''
+REFRESH_TOKEN = ('')
 
 def get_access_token(client_id, client_secret, refresh_token):
     token_url = "https://api.amazon.com/auth/o2/token"
